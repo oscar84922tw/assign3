@@ -85,7 +85,7 @@ void mousePressed(){
     float x = 0,y1 = 0,y2 = height+spacingY;
   for(int i = 0;i<5;i++){
     image(enemy,1760+ex1+80*i,ey1);  
-    image(enemy,800+ex1+50*i,50+40*i);
+    image(enemy,900+ex1+50*i,50+40*i);
 }
   for(int i = 0;i<COUNT;i++){
     x = i*spacingX;
